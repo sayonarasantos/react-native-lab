@@ -1,0 +1,8 @@
+version: '3'
+services:
+  react-native:
+    image: react-native:v1
+    working_dir: /home/projects
+    volumes:
+      - ./projects:/home/projects
+
