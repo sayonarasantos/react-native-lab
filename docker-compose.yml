@@ -4,5 +4,5 @@ services:
     image: react-native:v1
     working_dir: /home/project
     volumes:
-      - firstApp/:/home/projects
+      - firstApp/:/home/project
 
