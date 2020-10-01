@@ -38,8 +38,4 @@ RUN mkdir ${ANDROID_HOME}/cmdline-tools -p \
     && rm -rf ${ANDROID_HOME}/.android
 
 # Create projects directory
-RUN mkdir -p /home/projects
-
-# Create user and project directory 
-RUN mkdir /home/project/ -p
-
+RUN mkdir -p /home/project/
